@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        .a {
+            position: absolute;
+            top: 20%;
+            left: 0%;
+            z-index: 1;
+            
+        }
+
+        .b {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            z-index: 2;
+        }
+
+        .c {
+            position: absolute;
+            top: 30%;
+            left: 15%;
+            z-index: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="CSS/butterfly.jpg" class="a">
+    <img src="CSS/nature.jpg" class="b" height="200px" width="200px">
+    <img src="CSS/butterfly.jpg" class="c">   
+</body>
+</html>
